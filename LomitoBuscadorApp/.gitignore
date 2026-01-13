@@ -1,0 +1,64 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Env files (CORREGIDO: Ignora todo lo que empiece por .env)
+.env
+.env*
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# generated native folders (Correcto si usas Expo Prebuild)
+/ios
+/android
+
+# Firebase Client Configs (Seguridad extra)
+google-services.json
+GoogleService-Info.plist
+
+# firebase admin sdk key
+
+
+# --- Python Backend ---
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (¡Muy importante no subir esto tampoco!)
+venv/
+env/
+.venv/
+
